@@ -1,0 +1,7 @@
+server:
+  port: 18080
+pactbroker:
+  host: localhost:9292
+  auth:
+    username: broker-user
+    password: broker.password

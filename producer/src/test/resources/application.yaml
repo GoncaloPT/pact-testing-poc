@@ -1,0 +1,9 @@
+server:
+  port: 18080
+pactbroker:
+  host: "localhost"
+  port: "9292"
+  protocol: "http"
+  auth:
+    username: ""
+    password: ""

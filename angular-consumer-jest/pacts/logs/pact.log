@@ -1,0 +1,44 @@
+I, [2021-02-26T16:00:12.610756 #21142]  INFO -- : Registered expected interaction GET /person/
+D, [2021-02-26T16:00:12.610978 #21142] DEBUG -- : {
+  "description": "a request to GET all",
+  "providerState": "people are listed",
+  "request": {
+    "method": "GET",
+    "path": "/person/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+    }
+  },
+  "metadata": null
+}
+I, [2021-02-26T16:00:12.683417 #21142]  INFO -- : Received request GET /person/
+D, [2021-02-26T16:00:12.683526 #21142] DEBUG -- : {
+  "path": "/person/",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "http://localhost:8181/",
+    "User-Agent": "Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/16.4.0",
+    "Accept-Language": "en",
+    "Host": "localhost:8181",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-02-26T16:00:12.683755 #21142]  INFO -- : Found matching response for GET /person/
+D, [2021-02-26T16:00:12.683837 #21142] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+  }
+}
+I, [2021-02-26T16:00:12.698610 #21142]  INFO -- : Verifying - interactions matched
+I, [2021-02-26T16:00:12.702176 #21142]  INFO -- : Cleared interactions
+I, [2021-02-26T16:00:12.706794 #21142]  INFO -- : Writing pact for Provider to /Users/CTW00977-Admin/code/playground/pact-testing-poc/angular-consumer-jest/pacts/angular-consumer-jest-provider.json

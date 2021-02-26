@@ -1,0 +1,30 @@
+{
+  "consumer": {
+    "name": "angular-consumer-jest"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "description": "a request to GET all",
+      "providerState": "people are listed",
+      "request": {
+        "method": "GET",
+        "path": "/person/"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}

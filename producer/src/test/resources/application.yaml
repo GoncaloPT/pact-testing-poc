@@ -4,6 +4,8 @@ pactbroker:
   host: "localhost"
   port: "9292"
   protocol: "http"
+  tags:
+    tag: prod
   auth:
     username: ""
     password: ""

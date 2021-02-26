@@ -71,9 +71,12 @@
 				<artifactId>maven</artifactId>
 				<version>4.2.0</version>
 				<configuration>
-					<pactBrokerUrl>http://localhost:9292</pactBrokerUrl>
+					<pactBrokerUrl>tag</pactBrokerUrl>
 					<trimSnapshot>false</trimSnapshot> <!-- Defaults to false -->
 					<skipPactPublish>false</skipPactPublish> <!-- Defaults to false -->
+					<tags>
+						<tag>feature/dummyone</tag>
+					</tags>
 				</configuration>
 			</plugin>
 		</plugins>
